@@ -1,0 +1,22 @@
+
+<control>
+default_path=..\..\..\Samples\CnrtGrnd\
+
+// PSTR - BEGINNING OF THE PIANO SECTION
+
+// Zeroth (?) velocity layer
+<group>
+lovel=0 hivel=5
+fil_type=lpf_2p
+fil_veltrack=9600
+cutoff=10
+ampeg_sustain=100
+pitchlfo_freq=2.550
+fillfo_freq=3.162
+
+// SSTR - Sample start
+<region> sample=KEPSREC021.wav
+pan=-64
+key=0
+pitch_keycenter=21
+ampeg_release=0.900
